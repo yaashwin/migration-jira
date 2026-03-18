@@ -1,36 +1,4 @@
 
-
-```markdown
-# 🔄 Jira Migration Tool
-
-A complete **ETL (Extract → Transform → Load)** pipeline to migrate project management data from a custom source system to **Jira Cloud** via REST API.
-
----
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Step-by-Step Execution](#step-by-step-execution)
-  - [Step 1: Start the Source API](#step-1-start-the-source-api)
-  - [Step 2: Check Your Jira Instance](#step-2-check-your-jira-instance)
-  - [Step 3: Configure Mappings](#step-3-configure-mappings)
-  - [Step 4: Extract Data](#step-4-extract-data)
-  - [Step 5: Transform Data](#step-5-transform-data)
-  - [Step 6: Generate Jira Payload](#step-6-generate-jira-payload)
-  - [Step 7: Load to Jira](#step-7-load-to-jira)
-- [File Descriptions](#file-descriptions)
-- [API Endpoints](#api-endpoints)
-- [Mapping Reference](#mapping-reference)
-- [Sample Data Overview](#sample-data-overview)
-- [Troubleshooting](#troubleshooting)
-- [Notes](#notes)
-
----
-
 ## Overview
 
 This project simulates a **real-world Jira migration** scenario where:
