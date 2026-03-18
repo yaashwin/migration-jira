@@ -1,0 +1,92 @@
+[
+    {
+        "category": "Finance",
+        "description": "Core banking platform",
+        "id": 1,
+        "key": "BANK",
+        "lead": "rahul",
+        "name": "Banking Application",
+        "project_type": "software"
+    },
+    {
+        "category": "Retail",
+        "description": "Online shopping platform",
+        "id": 2,
+        "key": "ECOM",
+        "lead": "john",
+        "name": "E-Commerce Platform",
+        "project_type": "software"
+    },
+    {
+        "category": "Internal Tools",
+        "description": "Employee management",
+        "id": 3,
+        "key": "HRM",
+        "lead": "priya",
+        "name": "HR Management System",
+        "project_type": "business"
+    },
+    {
+        "category": "Sales",
+        "description": "Customer tracking system",
+        "id": 4,
+        "key": "CRM",
+        "lead": "alex",
+        "name": "Customer Relationship Mgmt",
+        "project_type": "software"
+    },
+    {
+        "category": "Infrastructure",
+        "description": "CI/CD automation",
+        "id": 5,
+        "key": "DEVOPS",
+        "lead": "mike",
+        "name": "DevOps Pipeline",
+        "project_type": "ops"
+    },
+    {
+        "category": "Mobile",
+        "description": "iOS and Android app",
+        "id": 6,
+        "key": "MOB",
+        "lead": "sarah",
+        "name": "Mobile App",
+        "project_type": "software"
+    },
+    {
+        "category": "Data",
+        "description": "Big data processing",
+        "id": 7,
+        "key": "DATA",
+        "lead": "chen",
+        "name": "Data Analytics Engine",
+        "project_type": "research"
+    },
+    {
+        "category": "Security",
+        "description": "Vulnerability scanning",
+        "id": 8,
+        "key": "SEC",
+        "lead": "fatima",
+        "name": "Security Audit Tool",
+        "project_type": "compliance"
+    },
+    {
+        "category": "Quality",
+        "description": "Test automation suite",
+        "id": 9,
+        "key": "QA",
+        "lead": "james",
+        "name": "QA Automation Framework",
+        "project_type": "testing"
+    },
+    {
+        "category": "Infrastructure",
+        "description": "On-prem to cloud migration",
+        "id": 10,
+        "key": "CLOUD",
+        "lead": "anita",
+        "name": "Cloud Migration Project",
+        "project_type": "ops"
+    }
+]

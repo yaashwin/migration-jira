@@ -1,0 +1,88 @@
+[
+    {
+        "description": "Business value score 1-100",
+        "id": "cf_001",
+        "name": "Business_Value",
+        "type": "number"
+    },
+    {
+        "description": "Risk assessment",
+        "id": "cf_002",
+        "name": "Risk_Level",
+        "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+        ],
+        "type": "select"
+    },
+    {
+        "description": "Story point estimate",
+        "id": "cf_003",
+        "name": "Story_Points_Custom",
+        "type": "number"
+    },
+    {
+        "description": "Environment where issue found",
+        "id": "cf_004",
+        "name": "Environment_Found",
+        "options": [
+            "DEV",
+            "QA",
+            "STAGING",
+            "PROD"
+        ],
+        "type": "select"
+    },
+    {
+        "description": "Impact on customers",
+        "id": "cf_005",
+        "name": "Customer_Impact",
+        "options": [
+            "None",
+            "Low",
+            "Medium",
+            "High",
+            "Severe"
+        ],
+        "type": "select"
+    },
+    {
+        "description": "Target release version",
+        "id": "cf_006",
+        "name": "Target_Release",
+        "type": "text"
+    },
+    {
+        "description": "External ticket/reference ID",
+        "id": "cf_007",
+        "name": "External_Reference",
+        "type": "text"
+    },
+    {
+        "description": "Owning team",
+        "id": "cf_008",
+        "name": "Team_Name",
+        "options": [
+            "Alpha",
+            "Beta",
+            "Gamma",
+            "Delta",
+            "Platform"
+        ],
+        "type": "select"
+    },
+    {
+        "description": "Estimated days to complete",
+        "id": "cf_009",
+        "name": "Estimated_Days",
+        "type": "number"
+    },
+    {
+        "description": "Is this a regression",
+        "id": "cf_010",
+        "name": "Regression_Flag",
+        "type": "boolean"
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1,
+        "name": "Software Development Workflow",
+        "project_keys": [
+            "BANK",
+            "ECOM",
+            "HRM",
+            "MOB",
+            "CRM"
+        ],
+        "transitions": [
+            {
+                "from": "New",
+                "to": "Open",
+                "trigger": "acknowledge"
+            },
+            {
+                "from": "Open",
+                "to": "In_Analysis",
+                "trigger": "start_analysis"
+            },
+            {
+                "from": "In_Analysis",
+                "to": "Ready_For_Dev",
+                "trigger": "analysis_complete"
+            },
+            {
+                "from": "Ready_For_Dev",
+                "to": "In_Development",
+                "trigger": "start_dev"
+            },
+            {
+                "from": "In_Development",
+                "to": "Code_Review",
+                "trigger": "submit_pr"
+            },
+            {
+                "from": "Code_Review",
+                "to": "In_Development",
+                "trigger": "changes_requested"
+            },
+            {
+                "from": "Code_Review",
+                "to": "Ready_For_QA",
+                "trigger": "pr_approved"
+            },
+            {
+                "from": "Ready_For_QA",
+                "to": "In_QA",
+                "trigger": "start_testing"
+            },
+            {
+                "from": "In_QA",
+                "to": "QA_Failed",
+                "trigger": "test_failed"
+            },
+            {
+                "from": "QA_Failed",
+                "to": "In_Development",
+                "trigger": "reopen"
+            },
+            {
+                "from": "In_QA",
+                "to": "Ready_For_UAT",
+                "trigger": "qa_passed"
+            },
+            {
+                "from": "Ready_For_UAT",
+                "to": "In_UAT",
+                "trigger": "start_uat"
+            },
+            {
+                "from": "In_UAT",
+                "to": "Approved",
+                "trigger": "uat_passed"
+            },
+            {
+                "from": "In_UAT",
+                "to": "In_Development",
+                "trigger": "uat_failed"
+            },
+            {
+                "from": "Approved",
+                "to": "Done",
+                "trigger": "deploy"
+            },
+            {
+                "from": "Done",
+                "to": "Closed",
+                "trigger": "close"
+            },
+            {
+                "from": "*",
+                "to": "On_Hold",
+                "trigger": "put_on_hold"
+            },
+            {
+                "from": "On_Hold",
+                "to": "Open",
+                "trigger": "resume"
+            },
+            {
+                "from": "*",
+                "to": "Cancelled",
+                "trigger": "cancel"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bug Workflow",
+        "project_keys": [
+            "BANK",
+            "ECOM",
+            "HRM",
+            "MOB",
+            "SEC"
+        ],
+        "transitions": [
+            {
+                "from": "New",
+                "to": "Open",
+                "trigger": "triage"
+            },
+            {
+                "from": "Open",
+                "to": "In_Development",
+                "trigger": "start_fix"
+            },
+            {
+                "from": "In_Development",
+                "to": "Ready_For_QA",
+                "trigger": "fix_ready"
+            },
+            {
+                "from": "Ready_For_QA",
+                "to": "In_QA",
+                "trigger": "start_verification"
+            },
+            {
+                "from": "In_QA",
+                "to": "QA_Failed",
+                "trigger": "verification_failed"
+            },
+            {
+                "from": "QA_Failed",
+                "to": "In_Development",
+                "trigger": "reopen"
+            },
+            {
+                "from": "In_QA",
+                "to": "Done",
+                "trigger": "verified"
+            },
+            {
+                "from": "Done",
+                "to": "Closed",
+                "trigger": "close"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ops Kanban Workflow",
+        "project_keys": [
+            "DEVOPS",
+            "DATA",
+            "QA",
+            "CLOUD"
+        ],
+        "transitions": [
+            {
+                "from": "New",
+                "to": "Open",
+                "trigger": "accept"
+            },
+            {
+                "from": "Open",
+                "to": "In_Development",
+                "trigger": "start_work"
+            },
+            {
+                "from": "In_Development",
+                "to": "Done",
+                "trigger": "complete"
+            },
+            {
+                "from": "Done",
+                "to": "Closed",
+                "trigger": "close"
+            }
+        ]
+    }
+]

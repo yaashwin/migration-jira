@@ -1,0 +1,67 @@
+[
+    {
+        "description": "Technical Lead",
+        "id": 1,
+        "name": "tech_lead"
+    },
+    {
+        "description": "Senior Developer",
+        "id": 2,
+        "name": "senior_dev"
+    },
+    {
+        "description": "Junior Developer",
+        "id": 3,
+        "name": "junior_dev"
+    },
+    {
+        "description": "Project Manager",
+        "id": 4,
+        "name": "project_manager"
+    },
+    {
+        "description": "Business Analyst",
+        "id": 5,
+        "name": "business_analyst"
+    },
+    {
+        "description": "DevOps Engineer",
+        "id": 6,
+        "name": "devops_engineer"
+    },
+    {
+        "description": "Data Engineer",
+        "id": 7,
+        "name": "data_engineer"
+    },
+    {
+        "description": "Security Analyst",
+        "id": 8,
+        "name": "security_analyst"
+    },
+    {
+        "description": "QA Lead",
+        "id": 9,
+        "name": "qa_lead"
+    },
+    {
+        "description": "Solution Architect",
+        "id": 10,
+        "name": "architect"
+    },
+    {
+        "description": "UX Designer",
+        "id": 11,
+        "name": "ux_designer"
+    },
+    {
+        "description": "Scrum Master",
+        "id": 12,
+        "name": "scrum_master"
+    },
+    {
+        "description": "Database Administrator",
+        "id": 13,
+        "name": "dba"
+    }
+]

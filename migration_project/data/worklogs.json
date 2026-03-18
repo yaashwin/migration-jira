@@ -1,0 +1,182 @@
+[
+    {
+        "date": "2024-01-04",
+        "description": "Login page initial implementation",
+        "hours": 6,
+        "id": 1,
+        "issue_id": 1002,
+        "issue_key": "BANK-2",
+        "user": "sarah"
+    },
+    {
+        "date": "2024-01-05",
+        "description": "Responsive design adjustments",
+        "hours": 4,
+        "id": 2,
+        "issue_id": 1002,
+        "issue_key": "BANK-2",
+        "user": "sarah"
+    },
+    {
+        "date": "2024-01-03",
+        "description": "Figma mockup creation",
+        "hours": 8,
+        "id": 3,
+        "issue_id": 1002,
+        "issue_key": "BANK-2",
+        "user": "lisa"
+    },
+    {
+        "date": "2024-01-15",
+        "description": "JWT service scaffolding",
+        "hours": 8,
+        "id": 4,
+        "issue_id": 1003,
+        "issue_key": "BANK-3",
+        "user": "john"
+    },
+    {
+        "date": "2024-01-16",
+        "description": "Token generation and validation",
+        "hours": 6,
+        "id": 5,
+        "issue_id": 1003,
+        "issue_key": "BANK-3",
+        "user": "john"
+    },
+    {
+        "date": "2024-01-17",
+        "description": "Refresh token logic",
+        "hours": 8,
+        "id": 6,
+        "issue_id": 1003,
+        "issue_key": "BANK-3",
+        "user": "john"
+    },
+    {
+        "date": "2024-01-22",
+        "description": "Code review fixes",
+        "hours": 4,
+        "id": 7,
+        "issue_id": 1003,
+        "issue_key": "BANK-3",
+        "user": "john"
+    },
+    {
+        "date": "2024-01-29",
+        "description": "Root cause analysis",
+        "hours": 3,
+        "id": 8,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "user": "john"
+    },
+    {
+        "date": "2024-01-30",
+        "description": "Fix implementation and testing",
+        "hours": 5,
+        "id": 9,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "user": "john"
+    },
+    {
+        "date": "2024-02-05",
+        "description": "Product listing grid layout",
+        "hours": 8,
+        "id": 10,
+        "issue_id": 2002,
+        "issue_key": "ECOM-2",
+        "user": "sarah"
+    },
+    {
+        "date": "2024-02-06",
+        "description": "Filter sidebar implementation",
+        "hours": 6,
+        "id": 11,
+        "issue_id": 2002,
+        "issue_key": "ECOM-2",
+        "user": "sarah"
+    },
+    {
+        "date": "2024-02-18",
+        "description": "Elasticsearch index setup",
+        "hours": 8,
+        "id": 12,
+        "issue_id": 2003,
+        "issue_key": "ECOM-3",
+        "user": "chen"
+    },
+    {
+        "date": "2024-02-19",
+        "description": "Search query builder",
+        "hours": 6,
+        "id": 13,
+        "issue_id": 2003,
+        "issue_key": "ECOM-3",
+        "user": "chen"
+    },
+    {
+        "date": "2024-03-03",
+        "description": "Profile page layout and API integration",
+        "hours": 7,
+        "id": 14,
+        "issue_id": 3002,
+        "issue_key": "HRM-2",
+        "user": "kumar"
+    },
+    {
+        "date": "2024-03-18",
+        "description": "Tax calculation module",
+        "hours": 8,
+        "id": 15,
+        "issue_id": 3003,
+        "issue_key": "HRM-3",
+        "user": "kumar"
+    },
+    {
+        "date": "2024-03-19",
+        "description": "Deduction rules engine",
+        "hours": 8,
+        "id": 16,
+        "issue_id": 3003,
+        "issue_key": "HRM-3",
+        "user": "kumar"
+    },
+    {
+        "date": "2024-01-06",
+        "description": "SonarQube installation and config",
+        "hours": 6,
+        "id": 17,
+        "issue_id": 4002,
+        "issue_key": "DEVOPS-2",
+        "user": "mike"
+    },
+    {
+        "date": "2024-04-02",
+        "description": "React Native project setup",
+        "hours": 8,
+        "id": 18,
+        "issue_id": 5001,
+        "issue_key": "MOB-1",
+        "user": "sarah"
+    },
+    {
+        "date": "2024-05-03",
+        "description": "Kafka cluster deployment",
+        "hours": 8,
+        "id": 19,
+        "issue_id": 6002,
+        "issue_key": "DATA-2",
+        "user": "chen"
+    },
+    {
+        "date": "2024-02-03",
+        "description": "OWASP ZAP scan execution",
+        "hours": 8,
+        "id": 20,
+        "issue_id": 7001,
+        "issue_key": "SEC-1",
+        "user": "fatima"
+    }
+]

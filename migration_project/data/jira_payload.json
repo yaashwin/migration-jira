@@ -1,0 +1,1278 @@
+[
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Build login system",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Implement complete authentication system with OAuth2 and MFA support"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Create login page UI",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Design and implement responsive login page"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Implement JWT token service",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Build JWT-based token issuance, refresh, and validation"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Add multi-factor authentication",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Implement TOTP and SMS-based MFA"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Design login mockup in Figma",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Create Figma mockup for login, registration, forgot password"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Subtask"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Implement login form HTML/CSS",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Code the login form with validation"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Subtask"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Login fails with special chars in password",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Users with passwords containing &, <, > cannot login. SQL injection vector possible."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Session timeout not working correctly",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Session stays alive beyond 30 min timeout, security risk"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Build payment processing engine",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Complete payment processing with multiple gateway support"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Integrate Stripe payment gateway",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Integrate Stripe API for card payments"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Build product catalog system",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Full product catalog with categories, search, and filtering"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Product listing page with filters",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Create product listing page with category and price filters"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Product search API with Elasticsearch",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Build product search using Elasticsearch with autocomplete"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Shopping cart functionality",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Complete shopping cart with add, remove, quantity update, save for later"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Add to cart button not responsive on mobile",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Add to cart button overlaps with product image on iPhone SE"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Investigate CDN options for product images",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Research CloudFront vs Cloudflare for image delivery"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Refactor product service to use repository pattern",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Current service layer is tightly coupled to ORM. Needs abstraction."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Low"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Employee onboarding workflow",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Complete new employee onboarding workflow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Build employee profile page",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Employee profile page with photo, details, department info"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Payroll calculation engine",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Build payroll engine with tax calculations, deductions, and compliance"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Leave management module",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Leave request, approval workflow, balance tracking"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Payslip PDF generation broken",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "PDF generation throws NPE when employee has no bank details on file"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Set up Jenkins CI/CD pipeline",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Set up complete CI/CD with Jenkins, SonarQube, and Artifactory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Configure SonarQube quality gates",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Set up quality gates for code coverage, duplication, and vulnerabilities"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Set up Prometheus + Grafana monitoring",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Deploy Prometheus for metrics collection and Grafana dashboards"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Jenkins pipeline fails on Node 18 projects",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "All builds using Node 18 fail with heap out of memory error"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Mobile app skeleton and navigation",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "React Native app with tab navigation and authentication flow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Implement push notification service",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "FCM integration for Android, APNS for iOS"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "App crashes on Android 12 during login",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "App crashes with FATAL EXCEPTION on Samsung devices running Android 12"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Build real-time data pipeline",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Kafka + Spark streaming pipeline for real-time analytics"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Set up Kafka cluster",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Deploy 3-node Kafka cluster with Zookeeper"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Spark job OOM on large datasets",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Spark streaming job runs out of memory when processing >1M events/sec"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "OWASP Top 10 vulnerability scan",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Run OWASP ZAP scan against all applications"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "SQL injection found in BANK search API",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Parameterized queries not used in account search endpoint"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Bug"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Implement SAST in CI pipeline",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Add static application security testing to all Jenkins pipelines"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Story"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Build Selenium test framework",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Page Object Model based Selenium framework with reporting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Write test cases for BANK login module",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "50 test cases covering login, forgot password, MFA, session management"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "AWS infrastructure setup",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Set up VPC, subnets, EKS cluster, RDS, ElastiCache"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Terraform modules for VPC setup",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Create reusable Terraform modules for multi-AZ VPC"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Database migration strategy document",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Evaluate DMS vs custom scripts for Oracle to PostgreSQL migration"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Highest"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Customer 360 dashboard",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Unified customer view with interaction history, purchases, support tickets"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "High"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Import legacy customer data",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Migrate 2M customer records from legacy Oracle DB to new PostgreSQL"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Service request form improvement",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Improve service request form with auto-fill and template support"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Epic"
+            },
+            "priority": {
+                "name": "Medium"
+            }
+        }
+    },
+    {
+        "fields": {
+            "project": {
+                "key": "BANK"
+            },
+            "summary": "Internal tool access request form",
+            "description": {
+                "version": 1,
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Request for admin access to CRM staging environment"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "issuetype": {
+                "name": "Task"
+            },
+            "priority": {
+                "name": "Low"
+            }
+        }
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "description": "Login and auth module",
+        "id": 1,
+        "lead": "rahul",
+        "name": "Authentication",
+        "project_key": "BANK"
+    },
+    {
+        "description": "Payment processing",
+        "id": 2,
+        "lead": "john",
+        "name": "Payments",
+        "project_key": "BANK"
+    },
+    {
+        "description": "Account management",
+        "id": 3,
+        "lead": "anita",
+        "name": "Account_Mgmt",
+        "project_key": "BANK"
+    },
+    {
+        "description": "Cart functionality",
+        "id": 4,
+        "lead": "sarah",
+        "name": "Shopping_Cart",
+        "project_key": "ECOM"
+    },
+    {
+        "description": "Product listing",
+        "id": 5,
+        "lead": "alex",
+        "name": "Product_Catalog",
+        "project_key": "ECOM"
+    },
+    {
+        "description": "Order management",
+        "id": 6,
+        "lead": "john",
+        "name": "Order_Processing",
+        "project_key": "ECOM"
+    },
+    {
+        "description": "Employee self-service",
+        "id": 7,
+        "lead": "priya",
+        "name": "Employee_Portal",
+        "project_key": "HRM"
+    },
+    {
+        "description": "Salary processing",
+        "id": 8,
+        "lead": "kumar",
+        "name": "Payroll",
+        "project_key": "HRM"
+    },
+    {
+        "description": "Continuous integration",
+        "id": 9,
+        "lead": "mike",
+        "name": "CI_Pipeline",
+        "project_key": "DEVOPS"
+    },
+    {
+        "description": "System monitoring",
+        "id": 10,
+        "lead": "mike",
+        "name": "Monitoring",
+        "project_key": "DEVOPS"
+    },
+    {
+        "description": "Mobile push notifications",
+        "id": 11,
+        "lead": "sarah",
+        "name": "Push_Notifications",
+        "project_key": "MOB"
+    },
+    {
+        "description": "ETL pipelines",
+        "id": 12,
+        "lead": "chen",
+        "name": "Data_Pipeline",
+        "project_key": "DATA"
+    }
+]

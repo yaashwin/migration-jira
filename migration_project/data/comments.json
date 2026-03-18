@@ -1,0 +1,227 @@
+[
+    {
+        "author": "james",
+        "created_date": "2024-01-28T10:30:00",
+        "id": 1,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "text": "Reproduced on Chrome and Firefox. Password with & symbol fails consistently.",
+        "updated_date": null
+    },
+    {
+        "author": "john",
+        "created_date": "2024-01-28T14:00:00",
+        "id": 2,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "text": "Root cause identified: input not being sanitized before DB query. Fixing now.",
+        "updated_date": null
+    },
+    {
+        "author": "fatima",
+        "created_date": "2024-01-28T15:30:00",
+        "id": 3,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "text": "This could be a security vulnerability. Escalating priority to Showstopper.",
+        "updated_date": null
+    },
+    {
+        "author": "john",
+        "created_date": "2024-01-30T09:00:00",
+        "id": 4,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "text": "Fix deployed to QA. Used parameterized queries to prevent injection.",
+        "updated_date": null
+    },
+    {
+        "author": "james",
+        "created_date": "2024-02-01T11:00:00",
+        "id": 5,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "text": "QA verified fix. All special characters now work correctly in passwords.",
+        "updated_date": null
+    },
+    {
+        "author": "john",
+        "created_date": "2024-01-22T16:00:00",
+        "id": 6,
+        "issue_id": 1003,
+        "issue_key": "BANK-3",
+        "text": "JWT implementation using RS256 algorithm. PR ready for review.",
+        "updated_date": null
+    },
+    {
+        "author": "rahul",
+        "created_date": "2024-01-23T10:00:00",
+        "id": 7,
+        "issue_id": 1003,
+        "issue_key": "BANK-3",
+        "text": "Code review comments added. Need to handle token refresh edge case.",
+        "updated_date": null
+    },
+    {
+        "author": "fatima",
+        "created_date": "2024-01-30T09:30:00",
+        "id": 8,
+        "issue_id": 1008,
+        "issue_key": "BANK-8",
+        "text": "Security scan flagged this. Sessions remaining active for 2+ hours.",
+        "updated_date": null
+    },
+    {
+        "author": "chen",
+        "created_date": "2024-02-18T14:00:00",
+        "id": 9,
+        "issue_id": 2003,
+        "issue_key": "ECOM-3",
+        "text": "Elasticsearch cluster set up. Working on autocomplete mapping now.",
+        "updated_date": null
+    },
+    {
+        "author": "sarah",
+        "created_date": "2024-02-22T11:00:00",
+        "id": 10,
+        "issue_id": 2005,
+        "issue_key": "ECOM-5",
+        "text": "Confirmed on iPhone SE and iPhone 12 mini. Button z-index issue.",
+        "updated_date": null
+    },
+    {
+        "author": "lisa",
+        "created_date": "2024-02-25T09:00:00",
+        "id": 11,
+        "issue_id": 2005,
+        "issue_key": "ECOM-5",
+        "text": "Updated CSS. Added proper media query breakpoints for small screens.",
+        "updated_date": null
+    },
+    {
+        "author": "emma",
+        "created_date": "2024-03-22T08:00:00",
+        "id": 12,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "text": "Multiple employees reported blank payslips. 15 tickets raised by HR.",
+        "updated_date": null
+    },
+    {
+        "author": "kumar",
+        "created_date": "2024-03-23T10:00:00",
+        "id": 13,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "text": "NPE in PayslipGenerator.java line 142. BankDetails can be null.",
+        "updated_date": null
+    },
+    {
+        "author": "kumar",
+        "created_date": "2024-03-24T15:00:00",
+        "id": 14,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "text": "Fix applied. Added null check and placeholder text for missing bank info.",
+        "updated_date": null
+    },
+    {
+        "author": "james",
+        "created_date": "2024-03-26T09:00:00",
+        "id": 15,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "text": "QA failed: Fix resolves NPE but now shows 'N/A' for bank name which confuses users.",
+        "updated_date": null
+    },
+    {
+        "author": "john",
+        "created_date": "2024-02-10T10:00:00",
+        "id": 16,
+        "issue_id": 4004,
+        "issue_key": "DEVOPS-4",
+        "text": "All our ECOM builds have been failing since yesterday morning.",
+        "updated_date": null
+    },
+    {
+        "author": "mike",
+        "created_date": "2024-02-10T14:00:00",
+        "id": 17,
+        "issue_id": 4004,
+        "issue_key": "DEVOPS-4",
+        "text": "Jenkins agent has 4GB heap for Node builds. Node 18 needs at least 8GB. Increasing now.",
+        "updated_date": null
+    },
+    {
+        "author": "james",
+        "created_date": "2024-04-18T09:00:00",
+        "id": 18,
+        "issue_id": 5003,
+        "issue_key": "MOB-3",
+        "text": "Crash report from Firebase Crashlytics attached. 450 users affected.",
+        "updated_date": null
+    },
+    {
+        "author": "chen",
+        "created_date": "2024-05-10T16:00:00",
+        "id": 19,
+        "issue_id": 6003,
+        "issue_key": "DATA-3",
+        "text": "Need to tune Spark executor memory. Currently 2GB per executor.",
+        "updated_date": null
+    },
+    {
+        "author": "david",
+        "created_date": "2024-05-11T10:00:00",
+        "id": 20,
+        "issue_id": 6003,
+        "issue_key": "DATA-3",
+        "text": "Also consider partitioning strategy. Current partition count is too low.",
+        "updated_date": null
+    },
+    {
+        "author": "fatima",
+        "created_date": "2024-02-05T11:00:00",
+        "id": 21,
+        "issue_id": 7002,
+        "issue_key": "SEC-2",
+        "text": "CRITICAL: Able to extract user table via UNION-based SQL injection on /api/accounts/search",
+        "updated_date": null
+    },
+    {
+        "author": "john",
+        "created_date": "2024-02-06T08:00:00",
+        "id": 22,
+        "issue_id": 7002,
+        "issue_key": "SEC-2",
+        "text": "Emergency fix deployed. All queries now use PreparedStatement.",
+        "updated_date": null
+    },
+    {
+        "author": "fatima",
+        "created_date": "2024-02-08T10:00:00",
+        "id": 23,
+        "issue_id": 7002,
+        "issue_key": "SEC-2",
+        "text": "Verified fix. Injection no longer possible. Closing.",
+        "updated_date": null
+    },
+    {
+        "author": "david",
+        "created_date": "2024-05-18T14:00:00",
+        "id": 24,
+        "issue_id": 9003,
+        "issue_key": "CLOUD-3",
+        "text": "Initial analysis: 500 tables, 2TB data. DMS can handle but needs careful testing.",
+        "updated_date": null
+    },
+    {
+        "author": "david",
+        "created_date": "2024-04-15T09:00:00",
+        "id": 25,
+        "issue_id": 10002,
+        "issue_key": "CRM-2",
+        "text": "On hold waiting for legacy DB access credentials from IT.",
+        "updated_date": null
+    }
+]

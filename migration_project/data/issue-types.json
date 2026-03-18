@@ -1,0 +1,86 @@
+[
+    {
+        "description": "Large body of work",
+        "icon": "epic.png",
+        "id": 1,
+        "name": "Epic",
+        "subtask": false
+    },
+    {
+        "description": "User story",
+        "icon": "story.png",
+        "id": 2,
+        "name": "Story",
+        "subtask": false
+    },
+    {
+        "description": "General task",
+        "icon": "task.png",
+        "id": 3,
+        "name": "Task",
+        "subtask": false
+    },
+    {
+        "description": "Software defect",
+        "icon": "bug.png",
+        "id": 4,
+        "name": "Bug",
+        "subtask": false
+    },
+    {
+        "description": "Child task",
+        "icon": "subtask.png",
+        "id": 5,
+        "name": "Sub-task",
+        "subtask": true
+    },
+    {
+        "description": "Research/investigation",
+        "icon": "spike.png",
+        "id": 6,
+        "name": "Spike",
+        "subtask": false
+    },
+    {
+        "description": "Change request from client",
+        "icon": "cr.png",
+        "id": 7,
+        "name": "Change_Request",
+        "subtask": false
+    },
+    {
+        "description": "Enhancement to existing feature",
+        "icon": "improve.png",
+        "id": 8,
+        "name": "Improvement",
+        "subtask": false
+    },
+    {
+        "description": "Technical debt item",
+        "icon": "debt.png",
+        "id": 9,
+        "name": "Tech_Debt",
+        "subtask": false
+    },
+    {
+        "description": "Production incident",
+        "icon": "incident.png",
+        "id": 10,
+        "name": "Incident",
+        "subtask": false
+    },
+    {
+        "description": "Internal service request",
+        "icon": "sr.png",
+        "id": 11,
+        "name": "Service_Request",
+        "subtask": false
+    },
+    {
+        "description": "Test case definition",
+        "icon": "test.png",
+        "id": 12,
+        "name": "Test_Case",
+        "subtask": false
+    }
+]

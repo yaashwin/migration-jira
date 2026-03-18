@@ -1,0 +1,102 @@
+[
+    {
+        "filename": "login_error_screenshot.png",
+        "id": 1,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "mime_type": "image/png",
+        "size_kb": 245,
+        "upload_date": "2024-01-28",
+        "uploader": "james"
+    },
+    {
+        "filename": "browser_console_log.txt",
+        "id": 2,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "mime_type": "text/plain",
+        "size_kb": 12,
+        "upload_date": "2024-01-28",
+        "uploader": "james"
+    },
+    {
+        "filename": "login_mockup_v2.fig",
+        "id": 3,
+        "issue_id": 1005,
+        "issue_key": "BANK-5",
+        "mime_type": "application/octet-stream",
+        "size_kb": 3400,
+        "upload_date": "2024-01-05",
+        "uploader": "lisa"
+    },
+    {
+        "filename": "iphone_se_screenshot.jpg",
+        "id": 4,
+        "issue_id": 2005,
+        "issue_key": "ECOM-5",
+        "mime_type": "image/jpeg",
+        "size_kb": 180,
+        "upload_date": "2024-02-20",
+        "uploader": "james"
+    },
+    {
+        "filename": "cdn_comparison_report.pdf",
+        "id": 5,
+        "issue_id": 2006,
+        "issue_key": "ECOM-6",
+        "mime_type": "application/pdf",
+        "size_kb": 890,
+        "upload_date": "2024-02-10",
+        "uploader": "mike"
+    },
+    {
+        "filename": "payslip_error_stacktrace.log",
+        "id": 6,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "mime_type": "text/plain",
+        "size_kb": 8,
+        "upload_date": "2024-03-23",
+        "uploader": "kumar"
+    },
+    {
+        "filename": "crashlytics_report.pdf",
+        "id": 7,
+        "issue_id": 5003,
+        "issue_key": "MOB-3",
+        "mime_type": "application/pdf",
+        "size_kb": 1200,
+        "upload_date": "2024-04-18",
+        "uploader": "james"
+    },
+    {
+        "filename": "android12_crash_video.mp4",
+        "id": 8,
+        "issue_id": 5003,
+        "issue_key": "MOB-3",
+        "mime_type": "video/mp4",
+        "size_kb": 15000,
+        "upload_date": "2024-04-18",
+        "uploader": "james"
+    },
+    {
+        "filename": "sql_injection_poc.py",
+        "id": 9,
+        "issue_id": 7002,
+        "issue_key": "SEC-2",
+        "mime_type": "text/x-python",
+        "size_kb": 3,
+        "upload_date": "2024-02-05",
+        "uploader": "fatima"
+    },
+    {
+        "filename": "db_migration_analysis.xlsx",
+        "id": 10,
+        "issue_id": 9003,
+        "issue_key": "CLOUD-3",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "size_kb": 560,
+        "upload_date": "2024-05-18",
+        "uploader": "david"
+    }
+]

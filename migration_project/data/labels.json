@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "frontend"
+    },
+    {
+        "id": 2,
+        "name": "backend"
+    },
+    {
+        "id": 3,
+        "name": "api"
+    },
+    {
+        "id": 4,
+        "name": "database"
+    },
+    {
+        "id": 5,
+        "name": "security"
+    },
+    {
+        "id": 6,
+        "name": "performance"
+    },
+    {
+        "id": 7,
+        "name": "ui-ux"
+    },
+    {
+        "id": 8,
+        "name": "critical-path"
+    },
+    {
+        "id": 9,
+        "name": "tech-debt"
+    },
+    {
+        "id": 10,
+        "name": "customer-reported"
+    },
+    {
+        "id": 11,
+        "name": "regression"
+    },
+    {
+        "id": 12,
+        "name": "documentation"
+    }
+]

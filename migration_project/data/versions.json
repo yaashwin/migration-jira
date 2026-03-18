@@ -1,0 +1,122 @@
+[
+    {
+        "description": "Initial release",
+        "id": 1,
+        "name": "Release 1.0",
+        "project_key": "BANK",
+        "release_date": "2024-01-15",
+        "status": "released"
+    },
+    {
+        "description": "Major update",
+        "id": 2,
+        "name": "Release 2.0",
+        "project_key": "BANK",
+        "release_date": "2024-04-01",
+        "status": "released"
+    },
+    {
+        "description": "Hotfix for 2.0",
+        "id": 3,
+        "name": "Release 2.1-hotfix",
+        "project_key": "BANK",
+        "release_date": "2024-04-15",
+        "status": "released"
+    },
+    {
+        "description": "Next major version",
+        "id": 4,
+        "name": "Release 3.0",
+        "project_key": "BANK",
+        "release_date": "2024-09-01",
+        "status": "in_progress"
+    },
+    {
+        "description": "Beta launch",
+        "id": 5,
+        "name": "v1.0-beta",
+        "project_key": "ECOM",
+        "release_date": "2024-02-01",
+        "status": "released"
+    },
+    {
+        "description": "General availability",
+        "id": 6,
+        "name": "v1.0-GA",
+        "project_key": "ECOM",
+        "release_date": "2024-03-15",
+        "status": "released"
+    },
+    {
+        "description": "Version 2 planning",
+        "id": 7,
+        "name": "v2.0-planned",
+        "project_key": "ECOM",
+        "release_date": "2024-10-01",
+        "status": "planned"
+    },
+    {
+        "description": "Phase 1 delivery",
+        "id": 8,
+        "name": "HRM-Phase1",
+        "project_key": "HRM",
+        "release_date": "2024-05-01",
+        "status": "released"
+    },
+    {
+        "description": "Phase 2 delivery",
+        "id": 9,
+        "name": "HRM-Phase2",
+        "project_key": "HRM",
+        "release_date": "2024-08-01",
+        "status": "in_progress"
+    },
+    {
+        "description": "Initial pipeline",
+        "id": 10,
+        "name": "DevOps-v1",
+        "project_key": "DEVOPS",
+        "release_date": "2024-01-01",
+        "status": "released"
+    },
+    {
+        "description": "App store release",
+        "id": 11,
+        "name": "MOB-1.0",
+        "project_key": "MOB",
+        "release_date": "2024-06-01",
+        "status": "released"
+    },
+    {
+        "description": "Bug fixes",
+        "id": 12,
+        "name": "MOB-1.1",
+        "project_key": "MOB",
+        "release_date": "2024-07-15",
+        "status": "in_progress"
+    },
+    {
+        "description": "Alpha release",
+        "id": 13,
+        "name": "DATA-alpha",
+        "project_key": "DATA",
+        "release_date": "2024-09-01",
+        "status": "in_progress"
+    },
+    {
+        "description": "First audit cycle",
+        "id": 14,
+        "name": "SEC-audit-v1",
+        "project_key": "SEC",
+        "release_date": "2024-03-01",
+        "status": "released"
+    },
+    {
+        "description": "First migration wave",
+        "id": 15,
+        "name": "CLOUD-wave1",
+        "project_key": "CLOUD",
+        "release_date": "2024-12-01",
+        "status": "in_progress"
+    }
+]

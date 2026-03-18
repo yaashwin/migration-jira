@@ -1,0 +1,137 @@
+[
+    {
+        "active": true,
+        "department": "Engineering",
+        "email": "rahul@company.com",
+        "full_name": "Rahul Sharma",
+        "id": 1,
+        "role": "tech_lead",
+        "username": "rahul"
+    },
+    {
+        "active": true,
+        "department": "Engineering",
+        "email": "john@company.com",
+        "full_name": "John Smith",
+        "id": 2,
+        "role": "senior_dev",
+        "username": "john"
+    },
+    {
+        "active": true,
+        "department": "Management",
+        "email": "priya@company.com",
+        "full_name": "Priya Patel",
+        "id": 3,
+        "role": "project_manager",
+        "username": "priya"
+    },
+    {
+        "active": true,
+        "department": "Product",
+        "email": "alex@company.com",
+        "full_name": "Alex Johnson",
+        "id": 4,
+        "role": "business_analyst",
+        "username": "alex"
+    },
+    {
+        "active": true,
+        "department": "Infrastructure",
+        "email": "mike@company.com",
+        "full_name": "Mike Brown",
+        "id": 5,
+        "role": "devops_engineer",
+        "username": "mike"
+    },
+    {
+        "active": true,
+        "department": "Engineering",
+        "email": "sarah@company.com",
+        "full_name": "Sarah Wilson",
+        "id": 6,
+        "role": "junior_dev",
+        "username": "sarah"
+    },
+    {
+        "active": true,
+        "department": "Data",
+        "email": "chen@company.com",
+        "full_name": "Chen Wei",
+        "id": 7,
+        "role": "data_engineer",
+        "username": "chen"
+    },
+    {
+        "active": true,
+        "department": "Security",
+        "email": "fatima@company.com",
+        "full_name": "Fatima Al-Hassan",
+        "id": 8,
+        "role": "security_analyst",
+        "username": "fatima"
+    },
+    {
+        "active": true,
+        "department": "Quality",
+        "email": "james@company.com",
+        "full_name": "James Taylor",
+        "id": 9,
+        "role": "qa_lead",
+        "username": "james"
+    },
+    {
+        "active": true,
+        "department": "Engineering",
+        "email": "anita@company.com",
+        "full_name": "Anita Desai",
+        "id": 10,
+        "role": "architect",
+        "username": "anita"
+    },
+    {
+        "active": false,
+        "department": "Engineering",
+        "email": "bob@company.com",
+        "full_name": "Bob Garcia",
+        "id": 11,
+        "role": "senior_dev",
+        "username": "bob"
+    },
+    {
+        "active": true,
+        "department": "Design",
+        "email": "lisa@company.com",
+        "full_name": "Lisa Anderson",
+        "id": 12,
+        "role": "ux_designer",
+        "username": "lisa"
+    },
+    {
+        "active": true,
+        "department": "Engineering",
+        "email": "kumar@company.com",
+        "full_name": "Kumar Rajan",
+        "id": 13,
+        "role": "junior_dev",
+        "username": "kumar"
+    },
+    {
+        "active": true,
+        "department": "Management",
+        "email": "emma@company.com",
+        "full_name": "Emma Davis",
+        "id": 14,
+        "role": "scrum_master",
+        "username": "emma"
+    },
+    {
+        "active": true,
+        "department": "Data",
+        "email": "david@company.com",
+        "full_name": "David Kim",
+        "id": 15,
+        "role": "dba",
+        "username": "david"
+    }
+]

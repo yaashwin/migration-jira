@@ -1,0 +1,152 @@
+[
+    {
+        "author": "fatima",
+        "changed_date": "2024-01-28T15:30:00",
+        "field": "priority",
+        "id": 1,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "new_value": "Showstopper",
+        "old_value": "High_Priority"
+    },
+    {
+        "author": "john",
+        "changed_date": "2024-01-29T09:00:00",
+        "field": "status",
+        "id": 2,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "new_value": "In_Development",
+        "old_value": "Open"
+    },
+    {
+        "author": "john",
+        "changed_date": "2024-01-30T17:00:00",
+        "field": "status",
+        "id": 3,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "new_value": "Ready_For_QA",
+        "old_value": "In_Development"
+    },
+    {
+        "author": "james",
+        "changed_date": "2024-01-31T09:00:00",
+        "field": "status",
+        "id": 4,
+        "issue_id": 1007,
+        "issue_key": "BANK-7",
+        "new_value": "In_QA",
+        "old_value": "Ready_For_QA"
+    },
+    {
+        "author": "sarah",
+        "changed_date": "2024-01-10T16:00:00",
+        "field": "status",
+        "id": 5,
+        "issue_id": 1002,
+        "issue_key": "BANK-2",
+        "new_value": "Code_Review",
+        "old_value": "In_Development"
+    },
+    {
+        "author": "rahul",
+        "changed_date": "2024-01-11T10:00:00",
+        "field": "status",
+        "id": 6,
+        "issue_id": 1002,
+        "issue_key": "BANK-2",
+        "new_value": "Ready_For_QA",
+        "old_value": "Code_Review"
+    },
+    {
+        "author": "james",
+        "changed_date": "2024-01-12T15:00:00",
+        "field": "status",
+        "id": 7,
+        "issue_id": 1002,
+        "issue_key": "BANK-2",
+        "new_value": "Done",
+        "old_value": "Ready_For_QA"
+    },
+    {
+        "author": "kumar",
+        "changed_date": "2024-03-23T09:00:00",
+        "field": "status",
+        "id": 8,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "new_value": "In_Development",
+        "old_value": "Open"
+    },
+    {
+        "author": "kumar",
+        "changed_date": "2024-03-24T16:00:00",
+        "field": "status",
+        "id": 9,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "new_value": "Ready_For_QA",
+        "old_value": "In_Development"
+    },
+    {
+        "author": "james",
+        "changed_date": "2024-03-26T09:30:00",
+        "field": "status",
+        "id": 10,
+        "issue_id": 3005,
+        "issue_key": "HRM-5",
+        "new_value": "QA_Failed",
+        "old_value": "Ready_For_QA"
+    },
+    {
+        "author": "sarah",
+        "changed_date": "2024-02-21T09:00:00",
+        "field": "assignee",
+        "id": 11,
+        "issue_id": 2005,
+        "issue_key": "ECOM-5",
+        "new_value": "sarah",
+        "old_value": null
+    },
+    {
+        "author": "alex",
+        "changed_date": "2024-04-14T10:00:00",
+        "field": "status",
+        "id": 12,
+        "issue_id": 10004,
+        "issue_key": "CRM-4",
+        "new_value": "Cancelled",
+        "old_value": "New"
+    },
+    {
+        "author": "alex",
+        "changed_date": "2024-04-14T10:00:00",
+        "field": "resolution",
+        "id": 13,
+        "issue_id": 10004,
+        "issue_key": "CRM-4",
+        "new_value": "Out_Of_Scope",
+        "old_value": null
+    },
+    {
+        "author": "john",
+        "changed_date": "2024-02-05T16:00:00",
+        "field": "status",
+        "id": 14,
+        "issue_id": 7002,
+        "issue_key": "SEC-2",
+        "new_value": "In_Development",
+        "old_value": "Open"
+    },
+    {
+        "author": "fatima",
+        "changed_date": "2024-02-08T10:00:00",
+        "field": "status",
+        "id": 15,
+        "issue_id": 7002,
+        "issue_key": "SEC-2",
+        "new_value": "Done",
+        "old_value": "In_Development"
+    }
+]

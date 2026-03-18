@@ -1,0 +1,137 @@
+[
+    {
+        "description": "Login UI depends on JWT service",
+        "id": 1,
+        "source": 1002,
+        "source_key": "BANK-2",
+        "target": 1003,
+        "target_key": "BANK-3",
+        "type": "depends_on"
+    },
+    {
+        "description": "JWT needed before MFA",
+        "id": 2,
+        "source": 1003,
+        "source_key": "BANK-3",
+        "target": 1004,
+        "target_key": "BANK-4",
+        "type": "is_prerequisite_for"
+    },
+    {
+        "description": "Both are input sanitization issues",
+        "id": 3,
+        "source": 1007,
+        "source_key": "BANK-7",
+        "target": 7002,
+        "target_key": "SEC-2",
+        "type": "is_related_to"
+    },
+    {
+        "description": "Bug blocks JWT deployment",
+        "id": 4,
+        "source": 1007,
+        "source_key": "BANK-7",
+        "target": 1003,
+        "target_key": "BANK-3",
+        "type": "blocks"
+    },
+    {
+        "description": "Listing page needs search API",
+        "id": 5,
+        "source": 2002,
+        "source_key": "ECOM-2",
+        "target": 2003,
+        "target_key": "ECOM-3",
+        "type": "is_prerequisite_for"
+    },
+    {
+        "description": "Cart needs product catalog",
+        "id": 6,
+        "source": 2004,
+        "source_key": "ECOM-4",
+        "target": 2001,
+        "target_key": "ECOM-1",
+        "type": "depends_on"
+    },
+    {
+        "description": "Bug caused by cart epic changes",
+        "id": 7,
+        "source": 2005,
+        "source_key": "ECOM-5",
+        "target": 2004,
+        "target_key": "ECOM-4",
+        "type": "is_caused_by"
+    },
+    {
+        "description": "Payroll engine blocked by payslip bug",
+        "id": 8,
+        "source": 3003,
+        "source_key": "HRM-3",
+        "target": 3005,
+        "target_key": "HRM-5",
+        "type": "blocks"
+    },
+    {
+        "description": "Monitoring would help detect such issues",
+        "id": 9,
+        "source": 4003,
+        "source_key": "DEVOPS-3",
+        "target": 4004,
+        "target_key": "DEVOPS-4",
+        "type": "is_related_to"
+    },
+    {
+        "description": "Crash must be fixed before notifications",
+        "id": 10,
+        "source": 5002,
+        "source_key": "MOB-2",
+        "target": 5003,
+        "target_key": "MOB-3",
+        "type": "blocks"
+    },
+    {
+        "description": "SAST would have caught SQL injection",
+        "id": 11,
+        "source": 7002,
+        "source_key": "SEC-2",
+        "target": 7003,
+        "target_key": "SEC-3",
+        "type": "is_prerequisite_for"
+    },
+    {
+        "description": "DB migration is part of cloud setup",
+        "id": 12,
+        "source": 9001,
+        "source_key": "CLOUD-1",
+        "target": 9003,
+        "target_key": "CLOUD-3",
+        "type": "contains"
+    },
+    {
+        "description": "Payments depend on auth system",
+        "id": 13,
+        "source": 1009,
+        "source_key": "BANK-9",
+        "target": 1001,
+        "target_key": "BANK-1",
+        "type": "depends_on"
+    },
+    {
+        "description": "SAST integrates into CI pipeline",
+        "id": 14,
+        "source": 4001,
+        "source_key": "DEVOPS-1",
+        "target": 7003,
+        "target_key": "SEC-3",
+        "type": "is_related_to"
+    },
+    {
+        "description": "Both involve database migration",
+        "id": 15,
+        "source": 10002,
+        "source_key": "CRM-2",
+        "target": 9003,
+        "target_key": "CLOUD-3",
+        "type": "is_related_to"
+    }
+]

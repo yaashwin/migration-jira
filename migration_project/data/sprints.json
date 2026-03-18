@@ -1,0 +1,137 @@
+[
+    {
+        "end_date": "2024-01-14",
+        "goal": "Core login system",
+        "id": 1,
+        "name": "BANK Sprint 1",
+        "project_key": "BANK",
+        "start_date": "2024-01-01",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-01-28",
+        "goal": "Payment integration",
+        "id": 2,
+        "name": "BANK Sprint 2",
+        "project_key": "BANK",
+        "start_date": "2024-01-15",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-02-11",
+        "goal": "Account management",
+        "id": 3,
+        "name": "BANK Sprint 3",
+        "project_key": "BANK",
+        "start_date": "2024-01-29",
+        "state": "active"
+    },
+    {
+        "end_date": "2024-02-25",
+        "goal": "Reporting module",
+        "id": 4,
+        "name": "BANK Sprint 4",
+        "project_key": "BANK",
+        "start_date": "2024-02-12",
+        "state": "planned"
+    },
+    {
+        "end_date": "2024-02-14",
+        "goal": "Product catalog",
+        "id": 5,
+        "name": "ECOM Sprint 1",
+        "project_key": "ECOM",
+        "start_date": "2024-02-01",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-02-28",
+        "goal": "Shopping cart",
+        "id": 6,
+        "name": "ECOM Sprint 2",
+        "project_key": "ECOM",
+        "start_date": "2024-02-15",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-03-14",
+        "goal": "Checkout flow",
+        "id": 7,
+        "name": "ECOM Sprint 3",
+        "project_key": "ECOM",
+        "start_date": "2024-03-01",
+        "state": "active"
+    },
+    {
+        "end_date": "2024-03-14",
+        "goal": "Employee onboarding",
+        "id": 8,
+        "name": "HRM Sprint 1",
+        "project_key": "HRM",
+        "start_date": "2024-03-01",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-03-28",
+        "goal": "Payroll processing",
+        "id": 9,
+        "name": "HRM Sprint 2",
+        "project_key": "HRM",
+        "start_date": "2024-03-15",
+        "state": "active"
+    },
+    {
+        "end_date": "2024-04-14",
+        "goal": "App skeleton",
+        "id": 10,
+        "name": "MOB Sprint 1",
+        "project_key": "MOB",
+        "start_date": "2024-04-01",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-04-28",
+        "goal": "Push notifications",
+        "id": 11,
+        "name": "MOB Sprint 2",
+        "project_key": "MOB",
+        "start_date": "2024-04-15",
+        "state": "active"
+    },
+    {
+        "end_date": "2024-01-14",
+        "goal": "Jenkins setup",
+        "id": 12,
+        "name": "DEVOPS Sprint 1",
+        "project_key": "DEVOPS",
+        "start_date": "2024-01-01",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-05-14",
+        "goal": "Spark pipeline",
+        "id": 13,
+        "name": "DATA Sprint 1",
+        "project_key": "DATA",
+        "start_date": "2024-05-01",
+        "state": "active"
+    },
+    {
+        "end_date": "2024-02-14",
+        "goal": "Vulnerability scan",
+        "id": 14,
+        "name": "SEC Sprint 1",
+        "project_key": "SEC",
+        "start_date": "2024-02-01",
+        "state": "completed"
+    },
+    {
+        "end_date": "2024-06-14",
+        "goal": "AWS setup",
+        "id": 15,
+        "name": "CLOUD Sprint 1",
+        "project_key": "CLOUD",
+        "start_date": "2024-06-01",
+        "state": "planned"
+    }
+]

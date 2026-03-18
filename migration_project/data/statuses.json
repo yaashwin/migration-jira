@@ -1,0 +1,98 @@
+[
+    {
+        "category": "new",
+        "description": "Newly created",
+        "id": 1,
+        "name": "New"
+    },
+    {
+        "category": "open",
+        "description": "Acknowledged and open",
+        "id": 2,
+        "name": "Open"
+    },
+    {
+        "category": "in_progress",
+        "description": "Being analyzed",
+        "id": 3,
+        "name": "In_Analysis"
+    },
+    {
+        "category": "ready",
+        "description": "Ready to be picked up",
+        "id": 4,
+        "name": "Ready_For_Dev"
+    },
+    {
+        "category": "in_progress",
+        "description": "Actively being developed",
+        "id": 5,
+        "name": "In_Development"
+    },
+    {
+        "category": "in_progress",
+        "description": "Under code review",
+        "id": 6,
+        "name": "Code_Review"
+    },
+    {
+        "category": "ready",
+        "description": "Ready for testing",
+        "id": 7,
+        "name": "Ready_For_QA"
+    },
+    {
+        "category": "in_progress",
+        "description": "Being tested",
+        "id": 8,
+        "name": "In_QA"
+    },
+    {
+        "category": "blocked",
+        "description": "Testing failed",
+        "id": 9,
+        "name": "QA_Failed"
+    },
+    {
+        "category": "ready",
+        "description": "Ready for user acceptance",
+        "id": 10,
+        "name": "Ready_For_UAT"
+    },
+    {
+        "category": "in_progress",
+        "description": "User acceptance testing",
+        "id": 11,
+        "name": "In_UAT"
+    },
+    {
+        "category": "done",
+        "description": "Approved by stakeholder",
+        "id": 12,
+        "name": "Approved"
+    },
+    {
+        "category": "done",
+        "description": "Completed",
+        "id": 13,
+        "name": "Done"
+    },
+    {
+        "category": "closed",
+        "description": "Closed and archived",
+        "id": 14,
+        "name": "Closed"
+    },
+    {
+        "category": "blocked",
+        "description": "Paused",
+        "id": 15,
+        "name": "On_Hold"
+    },
+    {
+        "category": "closed",
+        "description": "Will not be done",
+        "id": 16,
+        "name": "Cancelled"
+    }
+]

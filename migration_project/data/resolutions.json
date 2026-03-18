@@ -1,0 +1,52 @@
+[
+    {
+        "description": "Issue was fixed",
+        "id": 1,
+        "name": "Fixed"
+    },
+    {
+        "description": "Decision not to fix",
+        "id": 2,
+        "name": "Wont_Fix"
+    },
+    {
+        "description": "Duplicate of another issue",
+        "id": 3,
+        "name": "Duplicate_Issue"
+    },
+    {
+        "description": "Cannot replicate the issue",
+        "id": 4,
+        "name": "Cannot_Reproduce"
+    },
+    {
+        "description": "Working as designed",
+        "id": 5,
+        "name": "Not_A_Bug"
+    },
+    {
+        "description": "Work completed successfully",
+        "id": 6,
+        "name": "Done_Complete"
+    },
+    {
+        "description": "Not enough information provided",
+        "id": 7,
+        "name": "Incomplete_Info"
+    },
+    {
+        "description": "Outside project scope",
+        "id": 8,
+        "name": "Out_Of_Scope"
+    },
+    {
+        "description": "Temporary workaround in place",
+        "id": 9,
+        "name": "Workaround_Applied"
+    },
+    {
+        "description": "Issue with external dependency",
+        "id": 10,
+        "name": "Third_Party_Issue"
+    }
+]

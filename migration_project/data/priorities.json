@@ -1,0 +1,62 @@
+[
+    {
+        "color": "#FF0000",
+        "id": 1,
+        "name": "Showstopper",
+        "order": 1
+    },
+    {
+        "color": "#FF4500",
+        "id": 2,
+        "name": "Urgent",
+        "order": 2
+    },
+    {
+        "color": "#FF8C00",
+        "id": 3,
+        "name": "High_Priority",
+        "order": 3
+    },
+    {
+        "color": "#FFD700",
+        "id": 4,
+        "name": "Medium_Priority",
+        "order": 4
+    },
+    {
+        "color": "#32CD32",
+        "id": 5,
+        "name": "Normal",
+        "order": 5
+    },
+    {
+        "color": "#4169E1",
+        "id": 6,
+        "name": "Low_Priority",
+        "order": 6
+    },
+    {
+        "color": "#808080",
+        "id": 7,
+        "name": "Nice_To_Have",
+        "order": 7
+    },
+    {
+        "color": "#D3D3D3",
+        "id": 8,
+        "name": "Backlog_Priority",
+        "order": 8
+    },
+    {
+        "color": "#A9A9A9",
+        "id": 9,
+        "name": "Deferred",
+        "order": 9
+    },
+    {
+        "color": "#FFFFFF",
+        "id": 10,
+        "name": "Unprioritized",
+        "order": 10
+    }
+]

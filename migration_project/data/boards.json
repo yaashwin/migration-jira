@@ -1,0 +1,72 @@
+[
+    {
+        "admin": "rahul",
+        "id": 1,
+        "name": "BANK Scrum Board",
+        "project_key": "BANK",
+        "type": "scrum"
+    },
+    {
+        "admin": "john",
+        "id": 2,
+        "name": "ECOM Scrum Board",
+        "project_key": "ECOM",
+        "type": "scrum"
+    },
+    {
+        "admin": "priya",
+        "id": 3,
+        "name": "HRM Scrum Board",
+        "project_key": "HRM",
+        "type": "scrum"
+    },
+    {
+        "admin": "mike",
+        "id": 4,
+        "name": "DevOps Kanban",
+        "project_key": "DEVOPS",
+        "type": "kanban"
+    },
+    {
+        "admin": "sarah",
+        "id": 5,
+        "name": "MOB Scrum Board",
+        "project_key": "MOB",
+        "type": "scrum"
+    },
+    {
+        "admin": "chen",
+        "id": 6,
+        "name": "DATA Kanban",
+        "project_key": "DATA",
+        "type": "kanban"
+    },
+    {
+        "admin": "fatima",
+        "id": 7,
+        "name": "Security Board",
+        "project_key": "SEC",
+        "type": "kanban"
+    },
+    {
+        "admin": "james",
+        "id": 8,
+        "name": "QA Kanban",
+        "project_key": "QA",
+        "type": "kanban"
+    },
+    {
+        "admin": "anita",
+        "id": 9,
+        "name": "Cloud Migration Board",
+        "project_key": "CLOUD",
+        "type": "scrum"
+    },
+    {
+        "admin": "alex",
+        "id": 10,
+        "name": "CRM Scrum Board",
+        "project_key": "CRM",
+        "type": "scrum"
+    }
+]
